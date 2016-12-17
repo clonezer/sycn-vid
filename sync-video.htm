@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+sync-video
+</title>
+<link href="./sync-video_files/style.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link href="./sync-video_files/css" rel="stylesheet" type="text/css">
+<meta name="description" content="A tool that lets you watch html5 videos synchronously with other people ... without having to tell them to play and pause and such.">
+</head>
+<body>
+<div id="container">
+<header class="header">
+<h1 class="hero-site logo">
+Sync Video
+</h1>
+<form action="">
+  <input type="text" placeholder="video url" name="url">
+  <input type="submit" value="Submit">
+</form>
+</header>
+<div class="content">
+<p><video controls="" style="width:100%;" src="https://r4---sn-uvu-33je.googlevideo.com/videoplayback?requiressl=yes&id=7787d71593bdaf1b&itag=37&source=webdrive&ttl=transient&app=explorer&ip=1.4.176.79&ipbits=32&expire=1482005907&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,source,ttl&signature=5D6FA3229A9151FDFB60FE45E211547059398495.38A0137B1196C3F0552C01A0723C47DF682B60E5&key=cms1&pl=20&safm=0&cms_redirect=yes&mm=31&mn=sn-uvu-33je&ms=au&mt=1481991453&mv=m" class="sync-video">
+Sorry, it doesn't look like your browser supports html5 video.
+</video></p>
+<script async="" src="http://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./sync-video_files/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./sync-video_files/firebase.js"></script>
+<script type="text/javascript" src="./sync-video_files/sync-video.js"></script>
+<script>
+FIREBASE_ROOT = 'https://sync-video-44960.firebaseio.com';
+syncVideo(document.getElementsByClassName('sync-video')[0], 'alsudani-01');
+</script>
+</div>
+<div id="sidebar">
+</div>
+<div class="footer content">
+</div>
+</div>
+</body></html>
