@@ -10,9 +10,6 @@ sync-video
 <meta name="viewport" content="width=device-width, user-scalable=no">
 <link href="./sync-video_files/css" rel="stylesheet" type="text/css">
 <meta name="description" content="A tool that lets you watch html5 videos synchronously with other people ... without having to tell them to play and pause and such.">
-<link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
-  <!-- If you'd like to support IE8 -->
-  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 <body>
 <div id="container">
@@ -27,10 +24,9 @@ Sync Video
 </header>
 <div class="content">
 <p>
-  <video id="my-video" class="sync-video" width="480" height="264"
-  poster="" data-setup="{}">
-    <source src="https://r4---sn-uvu-33je.googlevideo.com/videoplayback?requiressl=yes&id=7787d71593bdaf1b&itag=37&source=webdrive&ttl=transient&app=explorer&ip=1.4.176.79&ipbits=32&expire=1482007478&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,source,ttl&signature=694BDBD73238A2E6950BD8FF6ADA8391108F6DA5.1774085C6DB3A319524D72F9F51E53CB0CC86D2D&key=cms1&pl=20&safm=0&cms_redirect=yes&mm=31&mn=sn-uvu-33je&ms=au&mt=1481992971&mv=m" type='video/mp4'>
-  </video>
+<video controls="controls" class="sync-video">
+<source src="https://redirector.googlevideo.com/videoplayback?api=api.blogit.vn&requiressl=yes&id=d132cd1e066b8212&itag=18&source=webdrive&ttl=transient&app=explorer&ip=2001:19f0:4400:40fb:5400:ff:fe40:c67f&ipbits=32&expire=1482007388&sparams=requiressl%2Cid%2Citag%2Csource%2Cttl%2Cip%2Cipbits%2Cexpire&signature=1B904CDF49E7B62EE89F8690F688FF06BCDF697B.B30226EDE02C80025D0DF552B0B1EB3DA05A4EBF&key=ck2&mm=31&mn=sn-o097znl6&ms=au&mt=1481992660&mv=m&nh=IgpwZjAxLnNqYzA3Kh0yMDAxOjY2ODowOjM6ZmZmZjowOjRkNDM6NDczMQ&pl=38&safm=0" type='video/mp4'/>
+</video>
 </p>
 <script async="" src="http://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./sync-video_files/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="./sync-video_files/firebase.js"></script>
@@ -45,5 +41,4 @@ syncVideo(document.getElementsByClassName('sync-video')[0], 'alsudani-01');
 <div class="footer content">
 </div>
 </div>
-<script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
 </body></html>
